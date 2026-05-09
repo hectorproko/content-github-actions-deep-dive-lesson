@@ -16,4 +16,4 @@ def lambda_handler(event, context):
 
     else:
 
-        raise
+        raise Exception("Input was not 'Hello'")
